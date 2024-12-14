@@ -1,0 +1,65 @@
+/* Bring in the global style sheet with all our variables */
+@import "../../styles/styleguide.css";
+
+/* Chrome gives us some extra padding here which is ok but it's the wrong color */
+:root {
+  background-color: var(--deepsample-variables-deepsample-dark);
+  overflow-x: hidden; /* Prevent horizontal scrollbar */
+
+}
+
+.deepsample-UI {
+  align-items: center;
+  /* border-radius: var(--deepsample-variables-big-panel-radius); */
+  display: flex;
+  flex-direction: column;
+  gap: var(--deepsample-variables-panel-gap);
+  /* ANIMA height: 2368px; */
+  padding: 10px;
+  /* position: absolute; */
+  /* ANIMA width: 674px; */
+  user-select: none; /* Disable text selection */
+}
+
+.deepsample-UI.error {
+  background-color: rgb(198, 3, 3);
+}
+
+.deepsample-UI .panel-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+.deepsample-UI .feedback-panel-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: auto !important;
+}
+
+.deepsample-UI .footer-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.deepsample-UI .footer-2 {
+  margin-top: unset !important;
+}
+
+.deepsample-UI .icon-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.deepsample-UI .info-2 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+/* According to Clerk support in Discord, this should get rid of signup link 04sep2024/ebb */
+.cl-footerAction {
+  display: none;
+}

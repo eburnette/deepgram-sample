@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSample Copilot",
+  "description": "Demonstrate Deepgram in a Chrome extension with a sidepanel.",
+  "side_panel": {
+    "default_path": "./pages/DeepSampleUi/index.html"
+  },
+  "minimum_chrome_version": "120",
+  "version": "0.0.1",
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "assets/img/deepsample-16.png",
+    "48": "assets/img/deepsample-48.png",
+    "128": "assets/img/deepsample-128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "assets/img/deepsample-16.png",
+      "48": "assets/img/deepsample-48.png",
+      "128": "assets/img/deepsample-128.png"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "requestPermissions.html",
+        "requestPermissions.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "https://*.deepsamplelegal.com/*"
+  ],
+  "permissions": [
+    "activeTab",
+    "offscreen",
+    "scripting",
+    "sidePanel",
+    "storage",
+    "tabCapture"
+  ]
+}

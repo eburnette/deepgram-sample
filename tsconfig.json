@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "target": "es5",
+    "allowJs": true,
+    "jsx": "react",
+    "outDir": "./build",
+    "types": [
+      "chrome",
+      "jest",
+      "@testing-library/jest-dom"
+    ]
+  },
+  "include": [
+    "src",
+    "declaration.d.ts"
+, "static/audio-processor.js", "static/deepgram.umd.js", "static/offscreen.js"  ],
+  "exclude": [
+    "build",
+    "node_modules"
+  ]
+}

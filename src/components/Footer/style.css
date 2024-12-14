@@ -1,0 +1,26 @@
+.footer {
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 20px 60px;
+  position: relative;
+}
+
+.footer .replace-with-footer {
+  color: #ffffff;
+  font-family: var(--m3-body-large-font-family);
+  font-size: var(--m3-body-large-font-size);
+  font-style: var(--m3-body-large-font-style);
+  font-weight: var(--m3-body-large-font-weight);
+  letter-spacing: var(--m3-body-large-letter-spacing);
+  line-height: var(--m3-body-large-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  /* width: 314px; */
+}
+.footer a {
+  color: #a4a3dc;
+  text-decoration: underline;
+}

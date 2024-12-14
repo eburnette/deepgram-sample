@@ -1,0 +1,134 @@
+.feedback-panel {
+  align-items: center;
+  background-color: var(--deepsample-variables-deepsample-light);
+  border-radius: var(--deepsample-variables-panel-radius);
+  display: inline-flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: var(--deepsample-variables-panel-vertical-padding);
+  position: relative;
+}
+
+.feedback-panel .panel-bar-6 {
+  /* flex: 0 0 auto !important; */
+  /* width: 414px !important; */
+}
+
+.feedback-panel .panel-bar-7 {
+  /* width: 170px !important; */
+}
+
+.feedback-panel .frame-wrapper {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  /* width: 100%; */
+}
+
+.feedback-panel .frame-3 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 30px;
+  position: relative;
+}
+
+.feedback-panel .stars-instance {
+  flex: 0 0 auto !important;
+  padding: unset !important;
+}
+
+.feedback-panel .feedback-text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0px 40px;
+  position: relative;
+  /* width: 100%; */
+}
+
+.feedback-panel .text-wrapper-4 {
+  align-self: stretch;
+  color: #5f6368;
+  font-family: "Roboto", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.feedback-panel .text-field-wrapper {
+  padding: 3px;
+  align-items: stretch;
+  /* align-self: stretch; */
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  position: relative;
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.feedback-panel .input-text {
+  display: flex;
+  align-items:flex-start;
+  /* height: 200px; */
+  flex: 1 0 auto;
+  padding: var(--text-input-radius, 8px) 6px var(--text-input-radius, 8px) 16px;
+  resize: false !important; /* TODO: doesn't work */
+
+}
+/* 
+.feedback-panel .div-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-color: var(--m3-schemes-outline);
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  position: relative; */
+  /* width: 100%; */
+/* } */
+
+/* .feedback-panel .state-layer-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: 4px 4px 0px 0px;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 4px 0px 4px 16px;
+  position: relative; */
+  /* width: 100%; */
+/* } */
+
+/* .feedback-panel .content-2 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+} */
+
+.feedback-panel .button-3 {
+  background-color: #092045 !important;
+}
+
+.feedback-panel .info-3 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

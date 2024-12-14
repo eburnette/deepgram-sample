@@ -1,0 +1,39 @@
+.plain-tooltip {
+  align-items: center;
+  background-color: var(--m3-schemes-inverse-surface);
+  border-radius: 4px;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  min-height: 24px;
+  padding: 4px 8px;
+  position: relative;
+}
+
+.plain-tooltip .supporting-text {
+  color: var(--m3-schemes-inverse-on-surface);
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 16px;
+  position: relative;
+}
+
+.plain-tooltip.single-line {
+  display: inline-flex;
+}
+
+.plain-tooltip.multi-line {
+  display: flex;
+  width: 200px;
+}
+
+.plain-tooltip.single-line .supporting-text {
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.plain-tooltip.multi-line .supporting-text {
+  align-self: stretch;
+}

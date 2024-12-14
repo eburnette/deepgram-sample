@@ -1,0 +1,23 @@
+.stars {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  padding: 10px;
+  position: relative;
+}
+
+.stars .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: center;
+  position: relative;
+}
+
+.stars .star-instance {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+  height: unset !important;
+  width: unset !important;
+}

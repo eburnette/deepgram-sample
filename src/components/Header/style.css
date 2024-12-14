@@ -1,0 +1,49 @@
+.header {
+  align-items: flex-start;
+  display: flex;
+  height: 48px;
+  position: relative;
+  width: 100%;
+}
+
+.header .top-app-bar {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--deepsample-variables-deepsample-dark);
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 4px;
+  padding: 8px 4px 8px 14px;
+  position: relative;
+  width: 100%;
+}
+
+.header .headline {
+  color: var(--deepsample-variables-deepsample-light);
+  flex: 1;
+  font-family: var(--m3-title-large-font-family);
+  font-size: var(--m3-title-large-font-size);
+  font-style: var(--m3-title-large-font-style);
+  font-weight: var(--m3-title-large-font-weight);
+  letter-spacing: var(--m3-title-large-letter-spacing);
+  line-height: var(--m3-title-large-line-height);
+  position: relative;
+}
+
+.header .trailing-icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  height: 48px;
+  justify-content: flex-end;
+  margin-bottom: -8px;
+  margin-top: -8px;
+  position: relative;
+}
+
+.header .icon-instance-node {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}

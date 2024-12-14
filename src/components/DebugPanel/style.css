@@ -1,0 +1,204 @@
+.debug-panel {
+  align-items: center;
+  background-color: var(--deepsample-variables-deepsample-light);
+  border-radius: var(--deepsample-variables-panel-radius);
+  /* display: flex; */
+  flex-direction: column;
+  gap: var(--deepsample-variables-small-panel-gap);
+  padding: var(--deepsample-variables-panel-vertical-padding);
+  position: relative;
+  /* width: 414px; */
+}
+
+.debug-panel .panel-bar-3 {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.debug-panel .panel-bar-4 {
+  /* width: 186px !important; */
+}
+
+
+.debug-panel .suggestion {
+  /* align-self: stretch !important; */
+  /* height: 40px !important; */
+  /* width: 100% !important; */
+}
+
+.debug-panel .info-7 {
+  /* height: 20px !important;
+  position: relative !important;
+  width: 20px !important; */
+}
+
+
+.debug-panel .div {
+  /* align-items: center; */
+  /* display: flex; */
+  /* flex: 0 0 auto; */
+  /* gap: 30px; */
+  padding: 10px 20px;
+  /* position: relative; */
+}
+
+.debug-panel .group {
+  display: grid;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  grid-template-columns:  repeat(auto-fill, minmax(150px, 1fr));
+  /* height: 61px; */
+  /* position: relative; */
+  /* width: 116px; */
+}
+
+.debug-panel .item {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+  /* height: 61px; */
+  /* position: relative; */
+  /* width: 116px; */
+}
+
+
+.debug-panel .text-wrapper {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  /* height: 20px; */
+  /* left: 30px; */
+  letter-spacing: 0.1px;
+  line-height: 16px;
+  /* position: absolute; */
+  /* top: 1px; */
+  /* white-space: nowrap; */
+}
+
+.debug-panel .ellipse {
+  background-color: pink; /* should not be used */
+  border-radius: 10px;
+  height: 16px;
+  /* left: 0;
+  position: absolute;
+  top: 0; */
+  width: 16px;
+}
+
+.debug-panel .ellipse.default {
+  background-color: var(--deepsample-variables-deepsample-gray, gray);
+}
+.debug-panel .ellipse.off {
+  background-color: var(--deepsample-variables-deepsample-gray, gray);
+}
+.debug-panel .ellipse.on {
+  background-color: rgb(0, 140, 195); /* var(--deepsample-variables-deepsample-green, green);*/
+}
+.debug-panel .ellipse.active {
+  background-color: var(--deepsample-variables-deepsample-green, green);
+  /* add animation */
+}
+.debug-panel .ellipse.warning {
+  background-color: var(--deepsample-variables-deepsample-yellow, yellow);
+}
+.debug-panel .ellipse.error {
+  background-color: var(--deepsample-variables-deepsample-red, red);
+}
+
+
+/* 
+.debug-panel .text-wrapper-2 {
+  color: #000000;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  height: 20px;
+  left: 30px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+} */
+
+
+.debug-area {background-color: red;
+  /* align-self: safe center; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  /* height: 100%; */
+  /* justify-content: center; */
+  /* width: 100%; */
+}
+
+.debug-item {background-color: gray;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  /* gap: 10px; */
+  /* justify-content: space-between; */
+  /* width: 100%; */
+}
+
+/* .status {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.status.online,
+.status.online:before {
+  background: #72ff7d;
+}
+
+.status.offline,
+.status.offline:before {
+  background: #ff4242;
+}
+
+.status.offline:before {
+  animation-iteration-count: 2;
+}
+
+.status.invisible,
+.status.invisible:before {
+  background: #42e5ff;
+}
+
+.status.idle,
+.status.idle:before {
+  background: #ffda72;
+}
+
+.status:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite ease-out;
+}
+
+@keyframes pulse {
+  from {
+    xtransform: scale(1);
+    opacity: 1;
+  }
+
+  to {
+    xtransform: scale(1);
+    opacity: 0;
+  }
+} */

@@ -1,0 +1,18 @@
+{
+  "extends": "@parcel/config-webextension",
+  "transformers": {
+    "*.{js,mjs,jsx,cjs,ts,tsx}": [
+      "@parcel/transformer-js",
+      "@parcel/transformer-react-refresh-wrap"
+    ]
+  },
+  "reporters": [
+    "...",
+    "parcel-reporter-static-files-copy"
+  ],
+  "optimizers": {
+    "*.js": [],
+    "*.css": [],
+    "*.html": []
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "deepsample-copilot",
+  "version": "0.0.1",
+  "description": "Demonstrate Deepgram in a Chrome extension with a sidepanel.",
+  "license": "UNLICENSED",
+  "source": "./src/pages/DeepSampleUi/index.html",
+  "scripts": {
+    "build": "rm -rf dist .parcel-cache deepsample-extension.zip; node utils/bump-version.js; NODE_ENV=development parcel build src/manifest.json --public-url ./ && cd dist && zip -rq ../deepsample-extension.zip ./",
+    "dev": "parcel --hmr-port 1234 src/manifest.json",
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "ua-parser-js": "^1.0.39"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.25.9",
+    "@babel/preset-typescript": "^7.26.0",
+    "@eslint/compat": "^1.2.2",
+    "@eslint/eslintrc": "^3.1.0",
+    "@eslint/js": "^9.13.0",
+    "@parcel/config-webextension": "^2.12.0",
+    "@testing-library/jest-dom": "^6.6.2",
+    "@types/chrome": "^0.0.279",
+    "@types/react-dom": "^18.3.1",
+    "@typescript-eslint/eslint-plugin": "^8.12.1",
+    "@typescript-eslint/parser": "^8.12.1",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.11.0",
+    "htmlnano": "2.1.1",
+    "jest": "^29.7.0",
+    "parcel": "^2.12.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
+    "process": "^0.11.10",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.12.1"
+  },
+  "repository": "https://github.com/DeepSample-Legal/deepsample-extension.git",
+  "author": "Ed Burnette <ed.burnette@gmail.com>",
+  "private": true
+}

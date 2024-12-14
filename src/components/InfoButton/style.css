@@ -1,0 +1,33 @@
+.info-button {
+  height: 24px;
+  /* width: 400px; */
+}
+
+.info-button .overlap-group {
+  height: 50px;
+  left: -10px;
+  position: relative;
+  top: -10px;
+  /* width: 124px; */
+}
+
+.info-button .plain-tooltip-instance {
+  display: inline-flex !important;
+  left: 20px !important;
+  max-width: 200px !important;
+  position: absolute !important;
+  top: 26px !important;
+  width: unset !important;
+}
+
+.info-button .icon-button-instance {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.info-button .info {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

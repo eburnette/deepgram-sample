@@ -1,0 +1,1 @@
+export { StyleAvatar } from "./StyleAvatar";
